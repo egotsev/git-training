@@ -6,6 +6,3 @@ def function9(a, b)
 
 def function10()
     9
-
-def a()
-	'a'
