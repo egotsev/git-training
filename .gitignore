@@ -1,0 +1,6 @@
+*.[oab]
+!file.o
+/.settings/
+bin/
+doc/**/*.pdf
+blah
