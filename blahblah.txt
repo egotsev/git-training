@@ -1,3 +1,5 @@
 def Blah
     def get
         'Blah'
+
+puts Blah.get
