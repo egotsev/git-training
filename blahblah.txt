@@ -7,5 +7,4 @@ def Blah
 
 puts Blah.get
 
-if true
-    puts true Blah.get
+puts true Blah.get
