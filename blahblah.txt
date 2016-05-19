@@ -1,6 +1,9 @@
 def Blah
     def get
         'Blah'
+    
+    def set
+        throw exception('setting not allowed')
 
 puts Blah.get
 
