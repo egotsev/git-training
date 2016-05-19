@@ -9,6 +9,3 @@ def function10()
 
 def function123 ()
     123
-
-def abv()
-    'abv'
