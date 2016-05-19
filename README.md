@@ -34,3 +34,13 @@ Okay, that was easy, eh.
 6. Merge into **release-1.0** the **origin/feature34** branch. Resolve the merge conflict.
 7. Push the **release-1.0** branch in the repo.
 
+## Fixing mistakes
+1. Change file and stage it. Now unstage it.
+2. Unmodify the file to committed state.
+3. Modify something, commit it to a new branch and push it.
+4. Now amend the commit. Show in the history that the commit is in practice completely different. Push it to the repo.
+5. Why can’t you push to the repo?
+6. Create new branch from **master** and cherry pick the latest commit from **feature33**. Check the history now.
+7. Now imagine with this commit a bug was added so it has to be reverted.
+8. Checkout the **mistaken-gitignore** branch. Add to .gitignore rule to ignore .class files and remove from the latest commit all .class files.
+
