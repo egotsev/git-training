@@ -13,3 +13,5 @@ def function123 ()
 def abv()
     'abv'
 
+def blah()
+    'blah'
