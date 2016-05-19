@@ -9,3 +9,5 @@ puts Blah.get
 
 if true
     puts true Blah.get
+else
+    # seriously?
