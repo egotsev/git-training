@@ -54,3 +54,11 @@ Okay, that was easy, eh.
 7. Now checkout local tracking branch of **origin/move-feature-3**. Rebase it on the local tracking branch **release-0.5**.
 8. Yep, there is a merge conflict. Now abort the rebase.
 9. Try again the same rebase, resolve the merge conflict and finish the rebase.
+
+## Rewriting history
+1. Checkout local branch from **origin/exercise-rebase-i**.
+2. Add fixup commit to  commit **6aa6b29** to fix the spelling error.
+3. Use interactive rebase to:
+  + Squash the fixups.
+  + Split commit **675652b** into two commits. File1.txt and File2.txt must go into the first one. File3.txt must go into the second one.
+  + Commit **b49ab90** must go before commit **675652b**.
