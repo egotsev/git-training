@@ -3,3 +3,6 @@ def Blah
         'Blah'
 
 puts Blah.get
+
+if true
+    puts true Blah.get
