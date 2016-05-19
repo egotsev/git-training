@@ -23,3 +23,14 @@ This repository has different branches for showcasing git's branch management ca
 
 Okay, that was easy, eh.
 
+
+## Remote branches and merging
+
+1. Show all remote references.
+2. Create local tracking branch for **origin/release-1.0**.
+3. Merge in the local branch **release-1.0** the branch **origin/feature33**.
+4. Check the history with showing the diverging commits. Are there any? Compare the local branch **release-1.0** and its upstream remote tracking branch.
+5. Push the changes and check the history again.
+6. Merge into **release-1.0** the **origin/feature34** branch. Resolve the merge conflict.
+7. Push the **release-1.0** branch in the repo.
+
