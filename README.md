@@ -44,3 +44,13 @@ Okay, that was easy, eh.
 7. Now imagine with this commit a bug was added so it has to be reverted.
 8. Checkout the **mistaken-gitignore** branch. Add to .gitignore rule to ignore .class files and remove from the latest commit all .class files.
 
+## Rebasing
+1. Checkout local tracking branch of **origin/user-story-3**.
+2. Rebase it on the remote tracking branch **origin/release-0.5**. Is there a difference between **origin/user-story-3** and **user-story-3**?
+3. Try to push the branch.
+4. Why just a simple push is not possible?
+5. Force push it.
+6. Checkout local tracking branch of **origin/release-0.5**. Merge into it **user-story-3**. Does it generate merge commit?
+7. Now checkout local tracking branch of **origin/move-feature-3**. Rebase it on the local tracking branch **release-0.5**.
+8. Yep, there is a merge conflict. Now abort the rebase.
+9. Try again the same rebase, resolve the merge conflict and finish the rebase.
