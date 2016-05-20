@@ -11,5 +11,5 @@ def Blah
 puts true Blah.get
 
 puts 'Nazad, nazad, mome Kalino'
-
 puts 'Hello, it's me. Hello from the other side.'
+puts 'Ya elate, pilenca, pri batko'
