@@ -6,3 +6,5 @@ def Blah
         throw exception('setting not allowed')
 
 puts true Blah.get
+
+puts 'Nazad, nazad, mome Kalino'
