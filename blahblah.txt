@@ -1,9 +1,12 @@
 def Blah
     def get
         'Blah'
-    
+
     def set
         throw exception('setting not allowed')
+
+    def get_uppercase
+        'BLAH'
 
 puts true Blah.get
 
