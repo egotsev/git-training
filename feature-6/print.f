@@ -1,5 +1,5 @@
 
-def print()
-    echo "hello"
+def print(str)
+    echo "hello, " str
 
-print
+print "git trainers"
