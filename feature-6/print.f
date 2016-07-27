@@ -3,4 +3,4 @@
 def print(str)
     echo "hello, " str feature3
 
-print "git trainers"
+print "git friends"
