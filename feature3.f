@@ -1,4 +1,5 @@
 function f(a, b)
     puts 'hello from the other side'
 
-asdasdf(1, 2)
+f(1, 2)
+f(2, 3)
