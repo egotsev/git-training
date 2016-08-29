@@ -1,4 +1,6 @@
 def Blah
 	def get_message()
-		"Blah"
+		m
 
+	def set_message(m)
+		message = m
