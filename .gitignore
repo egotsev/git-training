@@ -1,6 +1,3 @@
-*.[oab]
-!file.o
-/.settings/
-bin/
+/bin/
+
 doc/**/*.pdf
-blah
