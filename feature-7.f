@@ -6,4 +6,4 @@ def Blah
 		message = m
 
 	def reset()
-		message = "Blah"
+		message = "Blhah"
