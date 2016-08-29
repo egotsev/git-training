@@ -1,6 +1,10 @@
+def Utils
+	def append(a, m)
+		a + ": " + m
+
 def Blah
 	def get_message()
-		author + ": " + message
+		Utils.append(author, message)
 
 	def set_message(m, a)
 		message = m
