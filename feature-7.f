@@ -15,4 +15,8 @@ def Blah
 
 	def to_str()
 		get_message()
+	
+	def ~delete
+		author = nil
+		message = nil
 
