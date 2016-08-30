@@ -12,3 +12,8 @@ def Blah
 
 	def reset()
 		message = "Hello from the other side"
+
+	def ~delete
+		author = nil
+		message = nil
+
