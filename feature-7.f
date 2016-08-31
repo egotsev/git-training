@@ -1,10 +1,10 @@
 def Blah
 	def get_message()
-		author + ": " + message
+		author + ": " + msg
 
 	def set_message(m, a)
-		message = m
+		msg = m
 		author = a
 
 	def reset()
-		message = "Hello from the other side"
+		msg = "Hello from the other side"
