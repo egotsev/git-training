@@ -8,3 +8,6 @@ def Blah
 
 	def reset()
 		msg = "Hello from the other side"
+
+	def get_message_uppercase()
+		get_message().to_uppercase()
